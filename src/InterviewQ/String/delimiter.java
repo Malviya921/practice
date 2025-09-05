@@ -1,7 +1,7 @@
 package InterviewQ.String;
 
 public class delimiter {
-    static void main(String[] args) {
+    public static void main(String[] args) {
 
         // Delimiter
         // A delimiter is a character (or set of characters) that is used to separate or mark boundaries
@@ -10,7 +10,7 @@ public class delimiter {
         // Comma (,) → used in CSV files
         // Tab (\t) → used in TSV files
         // Pipe (|) → sometimes used in log files
-
+        //
 
 
 

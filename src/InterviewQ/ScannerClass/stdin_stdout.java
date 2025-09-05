@@ -1,11 +1,9 @@
 package InterviewQ.ScannerClass;
 
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class stdin_stdout { // system.in and system.out
-    static void main() {
+    public static void main() {
         // SCANNER CLASS
 
         // using the SCANNER CLASS  for input and using the print method for output.
