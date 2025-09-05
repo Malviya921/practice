@@ -1,4 +1,4 @@
-package Exercise;
+package InterviewQ.Exercise;
 
 import java.util.Random;
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package Exercise;
+package InterviewQ.Exercise;
 
 public class areaOFcircle {
 
