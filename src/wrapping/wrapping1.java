@@ -22,8 +22,8 @@ public class wrapping1 {
         int a = 69;  // permitive
         Integer wrapped = Integer.valueOf(a); // manual Boxing
 
-        // we can do auto boxing.
 
+        // we can do auto boxing.
         Integer wrapped2 = a;
 
         // if we want to wrap into an arrayList
@@ -43,7 +43,7 @@ public class wrapping1 {
         // or we can add in int(primitive) value to an #int[]array(primitive)
         int [] array = {a};
         int [] newarray = {2}; // array with one element
-        int [] newarray2 = {}; // ERROR -- array index oput of bound. {coz not initilize}
+        int [] newarray2 = {}; // ERROR -- array index out of bound. {coz not initilize}
         // must specify either the size or the values while creating one.
 
         int [] array2 = new int[5]; // array with the specified length == 5

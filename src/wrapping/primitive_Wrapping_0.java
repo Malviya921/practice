@@ -1,11 +1,15 @@
 package wrapping;
 
-public class primitive_Wrapping {
+public class primitive_Wrapping_0 {
     static void main() {
+        //Boxing / Unboxing OR Wrapping - Unwrapping
+        //Boxing = wrapping a primitive inside its wrapper class (int → Integer, double → Double, etc.).
+        //Unboxing = extracting the primitive from the wrapper (Integer → int).
+        //Introduced in Java 5 with autoboxing/unboxing (automatic conversion).
 
         int x= 10;
 
-        Integer z = x;
+        Integer z = x;  // Auto Boxing
         Integer y = Integer.valueOf(x); // manual boxing
 
         String str = "123";
@@ -32,7 +36,7 @@ public class primitive_Wrapping {
 
         //-----------------------------------------
 
-        Integer boxed = 10;   // behind the scene it is working alike above
+        Integer boxed = 10;   // behind the scene it is working like above
         int inte = boxed; // Implicit unboxing
 
         //-------------------------------------------

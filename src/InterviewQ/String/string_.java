@@ -1,7 +1,9 @@
 package InterviewQ.String;
 
 public class string_ {
+
     static void main(String[] args) {
+
         String name = "ravi";
         char letter = 'a';
         System.out.println(name.charAt(0));  // function --> .charAt(index number)
@@ -10,6 +12,9 @@ public class string_ {
         System.out.println(name.charAt(3));
         System.out.println(letter); // print the letter which holds the literal value 'a'.
 
+        String word ; // declaring a String variable without initializing it
+        word = "ravi";
+        System.out.println(word);
 
     }
 }
